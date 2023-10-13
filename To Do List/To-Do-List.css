@@ -1,0 +1,26 @@
+#items
+{
+width: 65%;
+height: 100%;
+margin: 0 auto;
+}
+
+#addButton
+{
+    font-size: 20px;
+    height: 40px;
+    width: 60px;
+}
+
+body
+{
+    text-align: center;
+    align-items: center;
+}
+
+input 
+{
+background-color: aliceblue;
+height: 30px;
+width: 60%;
+}
