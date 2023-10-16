@@ -1,15 +1,17 @@
 #items
 {
-width: 65%;
-height: 100%;
-margin: 0 auto;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 #addButton
 {
     font-size: 20px;
     height: 40px;
-    width: 60px;
+    width: 45px;
+    background-color: rgb(42, 42, 255);
+    color: white;
 }
 
 body
@@ -20,8 +22,57 @@ body
 
 input 
 {
-background-color: aliceblue;
-height: 30px;
-width: 60%;
+    background-color: aliceblue;
+    height: 30px;
+    width: 60%;
 }
-* { border: 1px solid black; }
+
+.item-container
+{
+    background-color: rgb(230, 230, 230);
+    text-align: left;
+    min-height: 40px;
+    max-height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-between;
+}
+
+.items
+{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+}
+
+.button-Container
+{
+    width: fit-content;
+    height: 30px ;
+    margin: auto 0;
+}
+
+.del-button
+{
+    background-color: red;
+    color: white;
+}
+
+.strike-Button
+{
+    background-color: green;
+    color: white;
+}
+
+.strike-Button,.del-button
+{
+    margin: auto 10px;
+    padding: 5px 15px;
+}
+
+p
+{
+    margin: auto;
+}
